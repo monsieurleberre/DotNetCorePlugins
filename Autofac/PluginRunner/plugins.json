@@ -1,5 +1,24 @@
 ﻿{
-  "plugins": {
-    "AuthorisedPlugins": "Plugin1"
-  }
+  "defaultAssembly": "Autofac.PluginRunner",
+  "components": [
+    {
+      "type": "Autofac.InternalPlugin",
+      "services": [
+        {
+          "type": "ConfigurationExample.InternalPlugin"
+        },
+        {
+          "type": "INamedPlugin, Autofac.PluginInterfaces"
+        }
+      ]
+    },
+    {
+      "type": "ConfigurationExamplePlugin.ExternalPlugin, ConfigurationExamplePlugin",
+      "services": [
+        {
+          "type": "ConfigurationExampleInterface.IPlugin, ConfigurationExampleInterface"
+        }
+      ]
+    }
+  ]
 }
