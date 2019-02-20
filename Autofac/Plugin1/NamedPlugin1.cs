@@ -1,10 +1,8 @@
 ﻿using System;
-using System.Composition;
-using PluginInterfaces;
+using Autofac.PluginInterfaces;
 
-namespace Plugin1
+namespace Autofac.Plugin1
 {
-    [Export(typeof(INamedPlugin))]
     public class NamedPlugin1 : INamedPlugin
     {
         public string Name { get; }

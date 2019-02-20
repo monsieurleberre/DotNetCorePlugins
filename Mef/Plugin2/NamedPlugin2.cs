@@ -1,7 +1,7 @@
 ﻿using System.Composition;
-using PluginInterfaces;
+using Mef.PluginInterfaces;
 
-namespace Plugin2
+namespace Mef.Plugin2
 {
     [Export(typeof(INamedPlugin))]
     public class NamedPlugin2 : INamedPlugin

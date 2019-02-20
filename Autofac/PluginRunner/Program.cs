@@ -4,9 +4,9 @@ using System.IO;
 using System.Linq;
 using System.Runtime.Loader;
 using Microsoft.Extensions.Configuration;
-using PluginInterfaces;
+using Autofac.PluginInterfaces;
 
-namespace MefPluginRunner
+namespace Autofac.PluginRunner
 {
     class Program
     {

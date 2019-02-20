@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace PluginInterfaces
+namespace Mef.PluginInterfaces
 {
     public interface INamedPlugin
     {

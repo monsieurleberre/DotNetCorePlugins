@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plugin1", "Plugin1\Plugin1.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plugin2", "Plugin2\Plugin2.csproj", "{E0128529-A048-464E-91DE-F81997850027}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MefPluginRunner", "MefPluginRunner\MefPluginRunner.csproj", "{4A303149-3D85-494C-8CD7-D32507025E3C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PluginRunner", "PluginRunner\PluginRunner.csproj", "{4A303149-3D85-494C-8CD7-D32507025E3C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
